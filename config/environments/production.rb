@@ -6,6 +6,8 @@ Copycopter::Application.configure do
   config.cache_classes = true
   config.consider_all_requests_local = false
   config.i18n.fallbacks = true
+  config.force_ssl = true
+
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
   config.serve_static_assets = false
