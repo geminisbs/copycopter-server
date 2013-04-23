@@ -21,4 +21,6 @@ Copycopter::Application.configure do
 
   # Add the print CSS into the manifest
   config.assets.precompile += ['wysiwyg.css']
+
+  config.cache_store = :dalli_store
 end
