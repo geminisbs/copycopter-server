@@ -12,6 +12,7 @@ gem 'yajl-ruby', '1.1.0', :require => 'yajl'
 gem "jquery-rails", "1.0.19"
 gem 'memcachier'
 gem 'dalli'
+gem 'unicorn'
 
 group :assets do
   gem 'sass-rails', "~> 3.2.5"
