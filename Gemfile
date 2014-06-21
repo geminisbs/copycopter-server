@@ -6,13 +6,14 @@ gem 'bourbon', '2.1.0'
 gem 'formtastic', '2.0.2'
 gem 'htmldiff', '0.0.1'
 gem 'pg', '0.13.2'
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.18'
 gem 'thin', '1.3.1'
 gem 'yajl-ruby', '1.1.0', :require => 'yajl'
 gem "jquery-rails", "1.0.19"
 gem 'memcachier'
 gem 'dalli'
 gem 'unicorn'
+gem 'newrelic_rpm'
 
 group :assets do
   gem 'sass-rails', "~> 3.2.5"
