@@ -1,6 +1,6 @@
 # config/unicorn.rb
-worker_processes Integer(ENV["WEB_CONCURRENCY"] || 3)
-timeout 25
+worker_processes Integer(ENV["UNICORN_WORKERS"] || ENV["WEB_CONCURRENCY"] || 3)
+timeout Integer(ENV["UNICORN_TIMEOUT"] || 25)
 preload_app true
 
 before_fork do |server, worker|
